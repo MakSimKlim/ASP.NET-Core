@@ -1,4 +1,4 @@
-скопировать адрес у папки, вставить его в окно консоли и приписать: dotnet new webapp --output aspnetcoreapp --no-https
+в нужной папке в строке адреса написать cmd, в открывшуюся консоль написать: dotnet new webapp --output aspnetcoreapp --no-https
 
 создастся папка aspnetcoreapp с кучей файлов в указанной папке
 
