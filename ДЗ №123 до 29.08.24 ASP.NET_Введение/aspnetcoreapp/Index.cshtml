@@ -1,0 +1,11 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Nubmer of day";
+    var currentDayOfYear = DateTime.Now.DayOfYear;
+}
+
+<div class="text-center">
+    <h1 class="display-4">Number of day today:</h1>
+    <p style="font-size: 2em;">@currentDayOfYear</p>
+</div>
