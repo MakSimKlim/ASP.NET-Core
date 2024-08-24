@@ -1,0 +1,13 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Random letter";
+    var random = new Random();
+    var letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    var randomLetter = letters[random.Next(letters.Length)];
+}
+
+<div class="text-center">
+    <h1 class="display-4">Random letter of the English alphabet:</h1>
+     <p style="font-size: 2em;">@randomLetter</p>
+</div>
