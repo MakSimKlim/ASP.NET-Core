@@ -1,0 +1,8 @@
+скопировать адрес у папки, вставить его в окно консоли и приписать: dotnet new webapp --output aspnetcoreapp --no-https
+
+создастся папка aspnetcoreapp с кучей файлов в указанной папке
+
+открыть файл aspnetcoreapp.csproj в VisualStudio и запустить компиляцию, согласиться на установку сертификатов
+
+откроется локльный сайт localhost:5262 (Welcome
+Learn about building Web apps with ASP.NET Core.)
