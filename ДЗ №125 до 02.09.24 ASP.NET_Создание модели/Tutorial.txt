@@ -1,0 +1,14 @@
+создать папку Models в обозревателе решений - создать класс Movie.cs
+
+ПЩ на папке в обозревателе решений - Добавить - Создать шаблонный элемент - Razor Pages на основе Entity Framework (CRUD) - Добавить
+
+Класс модели - Movie
+Класс Db Context - "+" - RazorPagesMoviesContext - Добавить
+
+Средства - Диспетчер пакетов Nuget - Консоль диспетчера пакетов:
+
+Add-Migration InitialCreate
+
+Update-Database
+
+Вид - обозреватель объектов SQL Server
