@@ -1,0 +1,6 @@
+/MyHWExample/RandomLetter
+/MyHWExample/ShakespeareSonnet
+/MyHWExample/PalindromeTest
+/MyHWExample/PalindromeTest?word=
+
+А Роза упала на лапу Азора
